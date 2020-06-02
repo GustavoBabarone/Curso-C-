@@ -7,10 +7,10 @@ namespace I_interfaces.Aula01
 {
     public class Program
     {
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             Teste();
-        }
+        }*/
 
         static void Teste()
         {

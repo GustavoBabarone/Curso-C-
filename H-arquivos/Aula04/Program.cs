@@ -12,8 +12,9 @@ namespace H_arquivos.Aula04
 
         static void Teste()
         {
-            string sourcePath = @"C:\Users\gustavo.bruder\Projects-Idea\Projects-Rider\Curso\H-arquivos\Aula04\file1.txt";
-            string targetPath = @"C:\Users\gustavo.bruder\Projects-Idea\Projects-Rider\Curso\H-arquivos\Aula04\file2.txt";
+            string userName = Environment.UserName;
+            string sourcePath = @"C:\Users\" + userName + @"\Projects-Idea\Projects-Rider\Curso\H-arquivos\Aula04\file1.txt";
+            string targetPath = @"C:\Users\" + userName + @"\Projects-Idea\Projects-Rider\Curso\H-arquivos\Aula04\file2.txt";
 
             try
             {

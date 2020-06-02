@@ -12,7 +12,8 @@ namespace H_arquivos.Aula02
 
         static void Teste()
         {
-            string path = @"C:\Users\gustavo.bruder\Projects-Idea\Projects-Rider\Curso\H-arquivos\Aula02\file1.txt";
+            string userName = Environment.UserName;
+            string path = @"C:\Users\" + userName + @"\Projects-Idea\Projects-Rider\Curso\H-arquivos\Aula02\file1.txt";
             
             StreamReader sr = null;
 

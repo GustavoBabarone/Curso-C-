@@ -12,7 +12,8 @@ namespace H_arquivos.Aula06
 
         static void Teste()
         {
-            string path = @"C:\Users\gustavo.bruder\Projects-Idea\Projects-Rider\Curso\H-arquivos\Aula06\file1.txt";
+            string userName = Environment.UserName;
+            string path = @"C:\Users\" + userName + @"\Projects-Idea\Projects-Rider\Curso\H-arquivos\Aula06\file1.txt";
             
             Console.WriteLine("DirectorySeparatorChar: " + Path.DirectorySeparatorChar);
             Console.WriteLine("PathSeparator: " + Path.PathSeparator);
