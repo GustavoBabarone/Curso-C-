@@ -17,7 +17,7 @@ namespace D_memoria_arrays_listas.Exercicio02
 
         public void AumentarSalario(double porcentagem)
         {
-            Salario = Salario + ((Salario * porcentagem) / 100);
+            Salario += (Salario * porcentagem) / 100;
         }
         public override string ToString()
         {

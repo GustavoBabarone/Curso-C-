@@ -4,7 +4,7 @@ namespace D_memoria_arrays_listas.Exercicio01
 {
     public class Program
     {
-        /*static void Main(string[] args)
+        static void ExecutarExercicio()
         {
             Estudante[] estudantes = new Estudante[10];
 
@@ -33,6 +33,11 @@ namespace D_memoria_arrays_listas.Exercicio01
                     Console.WriteLine($"Quarto {i+1}: {estudantes[i].Nome}, {estudantes[i].Email}");
                 }
             }
+        }
+
+        /*static void Main(string[] args)
+        {
+            ExecutarExercicio();
         }*/
     }
 }

@@ -4,12 +4,7 @@ namespace D_memoria_arrays_listas.Exercicio03
 {
     public class Program
     {
-        /*static void Main(string[] args)
-        {
-            Teste();
-        }*/
-
-        static void Teste()
+        static void ExecutarExercicio()
         {
             Console.Write("Insira a ordem (n) da matriz: ");
             int n = int.Parse(Console.ReadLine());
@@ -31,15 +26,18 @@ namespace D_memoria_arrays_listas.Exercicio03
                 }
             }
             
-            Console.WriteLine();
-            Console.WriteLine("Diagonal Principal:");
+            Console.WriteLine("\nDiagonal Principal:");
             for (int i = 0; i < n; i++)
             {
                 Console.Write(matriz[i,i] + " ");
             }
             
-            Console.WriteLine("\n");
-            Console.WriteLine("Números negativos: " + numerosNegativos);
+            Console.WriteLine("\n\nNúmeros negativos: " + numerosNegativos);
         }
+        
+        /*static void Main(string[] args)
+        {
+            ExecutarExercicio();
+        }*/
     }
 }

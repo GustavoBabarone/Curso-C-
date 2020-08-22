@@ -5,7 +5,7 @@ namespace D_memoria_arrays_listas.Aula04
 {
     public class Program
     {
-        /*static void Main(string[] args)
+        static void ExecutarAula()
         {
             Console.Write("Quantos produtos? ");
             int n = int.Parse(Console.ReadLine());
@@ -15,10 +15,8 @@ namespace D_memoria_arrays_listas.Aula04
             
             for (int  i = 0;  i < n;  i++)
             {
-                
-                Produto p = new Produto();
-                
                 Console.WriteLine($"Posição {i}: ");
+                Produto p = new Produto();
                 
                 Console.Write($"Nome: ");
                 p.Nome = Console.ReadLine();
@@ -27,7 +25,6 @@ namespace D_memoria_arrays_listas.Aula04
                 p.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
                 produtos[i] = p;
-                
                 soma += produtos[i].Preco;
             }
 
@@ -35,7 +32,12 @@ namespace D_memoria_arrays_listas.Aula04
             
             Console.WriteLine();
             Console.WriteLine("Soma total: " + soma);
-            Console.WriteLine("Media final: " + media);
+            Console.WriteLine("Media final: " + media);    
+        }
+        
+        /*static void Main(string[] args)
+        {
+            ExecutarAula();
         }*/
     }
 }

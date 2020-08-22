@@ -5,12 +5,7 @@ namespace D_memoria_arrays_listas.Exercicio04
 {
     public class Program
     {
-        /*static void Main(string[] args)
-        {
-         Teste();   
-        }*/
-
-        static void Teste()
+        static void ExecutarExercicio()
         {
             
             HashSet<int> A = new HashSet<int>();
@@ -44,5 +39,10 @@ namespace D_memoria_arrays_listas.Exercicio04
             }
             return curso;
         }
+        
+        /*static void Main(string[] args)
+        {
+            ExecutarExercicio();   
+        }*/
     }
 }

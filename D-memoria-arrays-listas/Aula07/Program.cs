@@ -4,7 +4,7 @@ namespace D_memoria_arrays_listas.Aula07
 {
     public class Program
     {
-        /*static void Main(string[] args)
+        static void ExecutarAula()
         {
             string[] pessoas = new string[] {"Gustavo", "Maria", "Felipe"};
 
@@ -12,6 +12,11 @@ namespace D_memoria_arrays_listas.Aula07
             {
                 Console.WriteLine(pessoa);
             }
+        }
+        
+        /*static void Main(string[] args)
+        {
+            ExecutarAula();
         }*/
     }
 }

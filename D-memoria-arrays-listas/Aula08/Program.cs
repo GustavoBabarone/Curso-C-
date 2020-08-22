@@ -5,12 +5,6 @@ namespace D_memoria_arrays_listas.Aula08
 {
     public class Program
     {
-        /*static void Main(string[] args)
-        {
-            /* LISTAS -> Homogênea - Ordenada - Inicia vazia - Cada elemento ocupa um 'nó' #1#
-            Teste();
-        }*/
-
         static void Listar(List<string> lista)
         {
             foreach (string obj in lista)
@@ -19,7 +13,7 @@ namespace D_memoria_arrays_listas.Aula08
             }
         }
 
-        static void Teste()
+        static void ExecutarAula()
         {
             List<string> lista = new List<string>();
             
@@ -91,5 +85,11 @@ namespace D_memoria_arrays_listas.Aula08
             lista.RemoveRange(2, 3);
             Listar(lista);
         }
+        
+        /*static void Main(string[] args)
+        {
+            /* LISTAS -> Homogênea - Ordenada - Inicia vazia - Cada elemento ocupa um 'nó' #1#
+            ExecutarAula();
+        }*/
     }
 }

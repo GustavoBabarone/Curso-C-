@@ -4,9 +4,9 @@ namespace D_memoria_arrays_listas.Aula02
 {
     public class Program
     {
-        /*static void Main(string[] args)
+        static void ExecutarAula()
         {
-            /* dados tipo VALOR (structs) podem receber NULL se usado '?' #1#
+            /* dados tipo VALOR (structs) podem receber NULL se usado '?' */
             double? x = null;
             double? y = 10.0;
             
@@ -23,6 +23,11 @@ namespace D_memoria_arrays_listas.Aula02
             
             Console.WriteLine("Valor de a = " + a);
             Console.WriteLine("Valor de b = " + b);
+        }
+
+        /*static void Main(string[] args)
+        {
+            ExecutarAula();
         }*/
     }
 }

@@ -6,12 +6,7 @@ namespace D_memoria_arrays_listas.Exercicio02
 {
     public class Program
     {
-        /*static void Main(string[] args)
-        {
-            Teste();
-        }*/
-
-        static void Teste()
+        static void ExecutarExercicio()
         {
             List<Funcionario> funcionarios = new List<Funcionario>();
             
@@ -59,5 +54,10 @@ namespace D_memoria_arrays_listas.Exercicio02
                 Console.WriteLine(obj.ToString());
             }
         }
+        
+        /*static void Main(string[] args)
+        {
+            ExecutarExercicio();
+        }*/
     }
 }

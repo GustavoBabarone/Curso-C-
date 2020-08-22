@@ -5,7 +5,7 @@ namespace D_memoria_arrays_listas.Aula03
 {
     public class Program
     {
-        /*static void Main(string[] args)
+        static void ExecutarAula()
         {
             Console.Write("Quantas posições o vetor terá? ");
             int n = int.Parse(Console.ReadLine());
@@ -25,6 +25,11 @@ namespace D_memoria_arrays_listas.Aula03
             Console.WriteLine();
             Console.WriteLine("Soma total: " + soma);
             Console.WriteLine("Media final: " + media);
+        }
+
+        /*static void Main(string[] args)
+        {
+            ExecutarAula();
         }*/
     }
 }
