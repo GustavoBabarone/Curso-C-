@@ -1,10 +1,10 @@
 ﻿﻿﻿using System;
 
-namespace Curso.Aula06
+namespace A_logica_de_programacao.Aula06
 {
     public class Operadores
     {
-        /*static void Main(string[] args)
+        static void ExecutarAula()
         {
             int numero1 = 10;
             int numero2 = 2;
@@ -16,6 +16,11 @@ namespace Curso.Aula06
 
             double resultado = (double) 10 / 8;
             Console.WriteLine(resultado);
+        }
+        
+        /*static void Main(string[] args)
+        {
+            ExecutarAula();
         }*/
     }
 }

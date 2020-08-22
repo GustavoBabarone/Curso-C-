@@ -1,10 +1,10 @@
 ﻿﻿﻿using System;
 
-namespace Curso.Aula07
+namespace A_logica_de_programacao.Aula07
 {
     public class Math
     {
-        /*static void Main(string[] args)
+        static void ExecutarAula()
         {
             double a = 1.0, b = -3.0, c = -4.0;
             double delta = System.Math.Pow(b, 2.0) - 4.0 * a * c;
@@ -12,6 +12,11 @@ namespace Curso.Aula07
 
             Console.WriteLine("Delta = " + delta);
             Console.WriteLine("X1 = " + x1);
+        }
+        
+        /*static void Main(string[] args)
+        {
+            ExecutarAula();
         }*/
     }
 }

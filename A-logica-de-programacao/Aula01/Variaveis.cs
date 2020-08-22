@@ -1,10 +1,10 @@
-﻿﻿﻿using System;
+﻿using System;
 
-namespace Curso.Aula01
+namespace A_logica_de_programacao.Aula01
 {
     public class Variaveis
     {
-        /*static void Main(string[] args)
+        static void ExecutarAula()
         {
             sbyte var1 = 127;
             short var2 = 32767;
@@ -25,6 +25,11 @@ namespace Curso.Aula01
             Console.WriteLine(var7);
             Console.WriteLine(var8);
             Console.WriteLine(var9);
+        }
+        
+        /*static void Main(string[] args)
+        {
+            ExecutarAula();
         }*/
     }
 }

@@ -1,10 +1,10 @@
 ﻿﻿﻿using System;
 
-namespace Curso.Aula02
+namespace A_logica_de_programacao.Aula02
 {
     public class VariaveisEspeciais
     {
-        /*static void Main(string[] args)
+        static void ExecutarAula()
         {
             char letra = '\u0041';
             string nome = "Gustavo";
@@ -14,7 +14,12 @@ namespace Curso.Aula02
             Console.WriteLine(letra);
             Console.WriteLine(nome);
             Console.WriteLine(obj1);
-            Console.WriteLine(obj2);
+            Console.WriteLine(obj2);    
+        }
+        
+        /*static void Main(string[] args)
+        {
+            ExecutarAula();
         }*/
     }
 }
