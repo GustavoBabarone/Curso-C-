@@ -4,14 +4,7 @@ namespace E_topicos_especiais_parte_01.Aula07
 {
     public class Program
     {
-        /*static void Main(string[] args)
-        {
-            TesteFormatacoes();
-            TesteConversao();
-            TesteOperacoes();
-        }*/
-        
-        static void TesteFormatacoes()
+        static void ExecutarFormatacoes()
         {
             Console.WriteLine("\n--- Formatações ---");
             
@@ -33,7 +26,7 @@ namespace E_topicos_especiais_parte_01.Aula07
             Console.WriteLine("Year: " + d.Year);
         }
 
-        static void TesteConversao()
+        static void ExecutarConversao()
         {
             Console.WriteLine("\n--- Conversões ---");
             
@@ -47,7 +40,7 @@ namespace E_topicos_especiais_parte_01.Aula07
             Console.WriteLine(d1.ToString("yyyy-MM-dd HH:mm:ss.fff"));
         } 
 
-        static void TesteOperacoes()
+        static void ExecutarOperacoes()
         {
             Console.WriteLine("\n--- Operações ---");
             
@@ -62,5 +55,12 @@ namespace E_topicos_especiais_parte_01.Aula07
             Console.WriteLine("AddMinutes: " + d3);
             Console.WriteLine("AddDays: " + d4);
         }
+        
+        /*static void Main(string[] args)
+        {
+            ExecutarFormatacoes();
+            ExecutarConversao();
+            ExecutarOperacoes();
+        }*/
     }
 }

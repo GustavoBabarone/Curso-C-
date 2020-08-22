@@ -4,14 +4,8 @@ namespace E_topicos_especiais_parte_01.Aula06
 {
     public class Program
     {
-        /*static void Main(string[] args)
+        static void ExecutarAula()
         {
-            Teste();
-        }*/
-
-        static void Teste()
-        {
-            
             TimeSpan t1 = new TimeSpan();
             Console.WriteLine("TimeSpan: " + t1);
             
@@ -46,5 +40,10 @@ namespace E_topicos_especiais_parte_01.Aula06
             TimeSpan t11 = TimeSpan.FromTicks(900000000L);
             Console.WriteLine("TimeSpan: " + t11);
         }
+        
+        /*static void Main(string[] args)
+        {
+            ExecutarAula();
+        }*/
     }
 }

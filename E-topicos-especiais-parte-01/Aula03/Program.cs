@@ -4,9 +4,9 @@ namespace E_topicos_especiais_parte_01.Aula03
 {
     public class Program
     {
-        /*static void Main(string[] args)
+        static void ExecutarAula()
         {
-            /* CONDICIONAL TERNÁRIA #1#
+            /* CONDICIONAL TERNÁRIA */
             int valor = 10;
             string resposta;
 
@@ -17,6 +17,11 @@ namespace E_topicos_especiais_parte_01.Aula03
             resposta = (valor < 5) ? "Sim" : "Não";
             
             Console.WriteLine("Resposta: " + resposta);
+        }
+
+        /*static void Main(string[] args)
+        {
+            ExecutarAula();
         }*/
     }
 }

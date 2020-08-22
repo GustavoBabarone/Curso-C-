@@ -4,12 +4,7 @@ namespace E_topicos_especiais_parte_01.Aula02
 {
     public class Program
     {
-        /*static void Main(string[] args)
-        {
-            Teste();
-        }*/
-
-        static void Teste()
+        static void ExecutarAula()
         {
             Console.Write("Informe um número: ");
             int x = int.Parse(Console.ReadLine());
@@ -42,7 +37,12 @@ namespace E_topicos_especiais_parte_01.Aula02
                     dia = "Valor inválido! Tente de 1-7";
                     break;
             }
-            Console.WriteLine("Dia da semana: " + dia);
+            Console.WriteLine($"Dia da semana: {dia}");
         }
+        
+        /*static void Main(string[] args)
+        {
+            ExecutarAula();
+        }*/
     }
 }
