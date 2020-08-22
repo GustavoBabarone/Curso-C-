@@ -1,6 +1,6 @@
 ﻿﻿using System.Globalization;
 
- namespace Curso.Aula06
+namespace C_construtores_sobrecarga_encapsulamento.Aula05
 {
     public class Produto
     {
@@ -15,26 +15,24 @@
             _quantidade = quantidade;
         }
 
-        public string Nome
+        public string GetNome()
         {
-            get { return _nome; }
-            set 
-            {
-                if (value != null && value.Length > 1)
-                {
-                    _nome = value;
-                }
-            }
+            return _nome;
         }
 
-        public double Preco
+        public void SetNome(string nome)
         {
-            get { return _preco; }
+            _nome = nome;
         }
-
-        public int Quantidade
+        
+        public double GetPreco()
         {
-            get { return _quantidade; } 
+            return _preco;
+        }
+        
+        public int GetQuantidade()
+        {
+            return _quantidade;
         }
 
         public double CalcularValorTotal()

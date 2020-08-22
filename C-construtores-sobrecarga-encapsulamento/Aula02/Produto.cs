@@ -1,6 +1,6 @@
 ﻿﻿using System.Globalization;
 
- namespace Curso.Aula04
+namespace C_construtores_sobrecarga_encapsulamento.Aula02
 {
     public class Produto
     {
@@ -10,18 +10,20 @@
 
         public Produto()
         {
-            Quantidade = 0;
         }
-
-        public Produto(string nome, double preco) : this()
+        
+        public Produto(string nome, double preco, int quantidade)
         {
             Nome = nome;
             Preco = preco;
+            Quantidade = quantidade;
         }
 
-        public Produto(string nome, double preco, int quantidade) : this(nome, preco)
+        public Produto(string nome, double preco)
         {
-            Quantidade = quantidade;
+            Nome = nome;
+            Preco = preco;
+            Quantidade = 5;
         }
 
         public double CalcularValorTotal()

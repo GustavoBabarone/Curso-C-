@@ -1,12 +1,12 @@
 ﻿﻿using System.Globalization;
 
- namespace Curso.Aula02
+namespace C_construtores_sobrecarga_encapsulamento.Aula07
 {
     public class Produto
     {
-        public string Nome;
-        public double Preco;
-        public int Quantidade;
+        public string _nome;
+        public double Preco { get; private set; }
+        public int Quantidade { get; set; }
 
         public Produto()
         {
@@ -14,16 +14,21 @@
         
         public Produto(string nome, double preco, int quantidade)
         {
-            Nome = nome;
+            _nome = nome;
             Preco = preco;
             Quantidade = quantidade;
         }
 
-        public Produto(string nome, double preco)
+        public string Nome
         {
-            Nome = nome;
-            Preco = preco;
-            Quantidade = 5;
+            get { return Nome; }
+            set
+            {
+                if (value != null && value.Length > 1)
+                {
+                    _nome = value;
+                }
+            }
         }
 
         public double CalcularValorTotal()
@@ -43,7 +48,7 @@
 
         public string ExibirMensagem()
         {
-            return $"{Nome}, "
+            return $"{_nome}, "
                    + $"$ {Preco.ToString("F2", CultureInfo.InvariantCulture)}, "
                    + $"{Quantidade} unidades, "
                    + $"Total: $ {(CalcularValorTotal()).ToString("F2", CultureInfo.InvariantCulture)}";

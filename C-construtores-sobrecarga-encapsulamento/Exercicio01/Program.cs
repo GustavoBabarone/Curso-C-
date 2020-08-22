@@ -5,7 +5,7 @@ namespace C_construtores_sobrecarga_encapsulamento.Exercicio01
 {
     public class Program
     {
-        /*static void Main(string[] args)
+        static void ExecutarExercicio()
         {
             Conta c;
             
@@ -43,6 +43,11 @@ namespace C_construtores_sobrecarga_encapsulamento.Exercicio01
             
             Console.WriteLine();
             Console.WriteLine("Dados da conta: \n" + c);
+        }
+        
+        /*static void Main(string[] args)
+        {
+            ExecutarExercicio();
         }*/
     }
 }

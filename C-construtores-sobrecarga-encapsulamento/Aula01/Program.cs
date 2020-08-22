@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Globalization;
 
-namespace Curso.Aula01
+namespace C_construtores_sobrecarga_encapsulamento.Aula01
 {
     public class Program
     {
-        /*static void Main(string[] args)
+        static void ExecutarAula()
         {
             Console.WriteLine("Entre os dados do produto:");
             string nome = Console.ReadLine();
@@ -29,6 +29,11 @@ namespace Curso.Aula01
             p.RemoverProdutos(remover);
 
             Console.WriteLine("Dados atualizados: " + p.ExibirMensagem());
+        }
+        
+        /*static void Main(string[] args)
+        {
+            ExecutarAula();
         }*/
     }
 }

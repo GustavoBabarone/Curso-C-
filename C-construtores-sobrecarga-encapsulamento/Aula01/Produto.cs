@@ -1,7 +1,7 @@
 ﻿﻿using System.Globalization;
- using System.Net;
+using System.Net;
 
- namespace Curso.Aula01
+namespace C_construtores_sobrecarga_encapsulamento.Aula01
 {
     class Produto
     {
@@ -36,7 +36,7 @@
             return $"{Nome}, "
                    + $"$ {Preco.ToString("F2", CultureInfo.InvariantCulture)}, "
                    + $"{Quantidade} unidades, "
-                   + $"Total: $ {(CalcularValorTotal()).ToString("F2", CultureInfo.InvariantCulture)}";
+                   + $"Total: $ {CalcularValorTotal().ToString("F2", CultureInfo.InvariantCulture)}";
         }
     }
 }
