@@ -1,4 +1,4 @@
-﻿﻿﻿namespace Curso.Exercicio04
+﻿﻿﻿namespace B_classes_atributos_metodos.Exercicio04
 {
     public class ConversorDeMoeda
     {

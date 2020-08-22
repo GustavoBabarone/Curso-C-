@@ -1,6 +1,6 @@
 ﻿﻿﻿using System;
 
-namespace Curso.Aula01
+namespace B_classes_atributos_metodos.Aula01
 {
     public class Triangulo
     {

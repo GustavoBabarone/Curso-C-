@@ -1,11 +1,11 @@
-﻿﻿﻿using System;
+﻿using System;
 using System.Globalization;
 
-namespace Curso.Exercicio02
+namespace B_classes_atributos_metodos.Exercicio02
 {
-    public class Exercicio02
+    public class Program
     {
-        public void MetodoExercicio02()
+        static void ExecutarAula()
         {
             Funcionario f = new Funcionario();
             
@@ -25,5 +25,10 @@ namespace Curso.Exercicio02
 
             Console.WriteLine($"Dados atualizados: {f.Nome}, $ {SalarioLiquido.ToString("F2", CultureInfo.InvariantCulture)}");
         }
+        
+        /*static void Main(string[] args)
+        {
+            ExecutarAula();
+        }*/
     }
 }

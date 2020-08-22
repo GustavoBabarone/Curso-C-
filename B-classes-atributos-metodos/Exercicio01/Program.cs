@@ -1,16 +1,15 @@
-﻿﻿﻿using System;
+﻿using System;
 using System.Globalization;
-
-namespace Curso.Exercicio01
+  
+namespace B_classes_atributos_metodos.Exercicio01
 {
-    public class Exercicio01
+    public class Program
     {
-        public void MetodoExercicio01()
+        static void ExecutarAula()
         {
+            Console.WriteLine("Entre os dados do produto:");
             
             Produto p = new Produto();
-            
-            Console.WriteLine("Entre os dados do produto:");
             p.Nome = Console.ReadLine();
             p.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             p.Quantidade = int.Parse(Console.ReadLine());
@@ -31,5 +30,10 @@ namespace Curso.Exercicio01
 
             Console.WriteLine("Dados atualizados: " + p.ExibirMensagem());
         }
+        
+        /*static void Main(string[] args)
+        {
+            ExecutarAula();
+        }*/
     }
 }

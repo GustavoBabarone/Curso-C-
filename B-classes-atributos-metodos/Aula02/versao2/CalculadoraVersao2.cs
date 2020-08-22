@@ -1,6 +1,6 @@
 ﻿﻿﻿using System;
 
-namespace Curso.Aula02.versao2
+namespace B_classes_atributos_metodos.Aula02.versao2
 {
     public class CalculadoraVersao2
     {

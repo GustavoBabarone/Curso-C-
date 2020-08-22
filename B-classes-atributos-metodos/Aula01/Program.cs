@@ -1,15 +1,14 @@
-﻿﻿﻿using System;
+﻿using System;
 using System.Globalization;
 
-namespace Curso.Aula01
+namespace B_classes_atributos_metodos.Aula01
 {
-    public class Aula01
+    public class Program
     {
-        public void MetodoAula01()
+        static void ExecutarAula()
         {
-            Triangulo x, y;
-            x = new Triangulo();
-            y = new Triangulo();
+            Triangulo x = new Triangulo();
+            Triangulo y = new Triangulo();
         
             Console.WriteLine("Entre com as medidas do triângulo X: ");
             x.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
@@ -35,5 +34,10 @@ namespace Curso.Aula01
                 Console.WriteLine("Maior área: Y");
             }
         }
+        
+        /*static void Main(string[] args)
+        {
+            ExecutarAula();
+        }*/
     }
 }

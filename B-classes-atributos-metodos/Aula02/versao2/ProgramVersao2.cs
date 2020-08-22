@@ -1,15 +1,13 @@
 ﻿﻿﻿using System;
 using System.Globalization;
 
-namespace Curso.Aula02.versao2
+namespace B_classes_atributos_metodos.Aula02.versao2
 {
     public class ProgramVersao2
     {
-        /* VERSÃO 2 ->  */
-        
-        /*static void Main(string[] args)
+        /* VERSÃO 2 ->  Métodos em uma classe separada */
+        static void ExecutarAula()
         {
-            
             CalculadoraVersao2 calc = new CalculadoraVersao2();
             
             Console.Write("Entre com o valor do raio: ");
@@ -21,6 +19,11 @@ namespace Curso.Aula02.versao2
             Console.WriteLine("Circunferência: " + circunferencia.ToString("F2", CultureInfo.InvariantCulture));
             Console.WriteLine("Volume: " + volume.ToString("F2", CultureInfo.InvariantCulture));
             Console.WriteLine("Valor de Pi: " + calc.Pi.ToString("F2", CultureInfo.InvariantCulture));
+        }
+        
+        /*static void Main(string[] args)
+        {
+            ExecutarAula();
         }*/
     }
 }

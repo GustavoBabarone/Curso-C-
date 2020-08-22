@@ -1,6 +1,6 @@
 ﻿﻿﻿using System.Globalization;
 
-namespace Curso.Exercicio01
+namespace B_classes_atributos_metodos.Exercicio01
 {
     public class Produto
     {

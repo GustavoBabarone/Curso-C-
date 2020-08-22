@@ -1,4 +1,4 @@
-﻿﻿﻿namespace Curso.Exercicio02
+﻿﻿﻿namespace B_classes_atributos_metodos.Exercicio02
 {
     public class Funcionario
     {

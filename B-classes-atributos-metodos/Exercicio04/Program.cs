@@ -1,11 +1,11 @@
 ﻿﻿﻿using System;
 using System.Globalization;
 
-namespace Curso.Exercicio04
+namespace B_classes_atributos_metodos.Exercicio04
 {
     public class Program
     {
-        /*static void Main(string[] args)
+        static void ExecutarAula()
         {
             Console.Write("Qual é a cotação do dólar? ");
             double cotacao = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
@@ -13,8 +13,13 @@ namespace Curso.Exercicio04
             Console.Write("Quantos dólares você vai comprar? ");
             double quantidade = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             
-            Console.WriteLine("O valor a ser pago em reais será = " 
-                              + (ConversorDeMoeda.CalcularValorFinal(cotacao, quantidade)).ToString("F2", CultureInfo.InvariantCulture));
+            string valor = ConversorDeMoeda.CalcularValorFinal(cotacao, quantidade).ToString("F2", CultureInfo.InvariantCulture);
+            Console.WriteLine($"O valor a ser pago em reais será = {valor}");
+        }
+        
+        /*static void Main(string[] args)
+        {
+            ExecutarAula();
         }*/
     }
 }

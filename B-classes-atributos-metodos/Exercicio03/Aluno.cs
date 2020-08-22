@@ -1,4 +1,4 @@
-﻿﻿﻿namespace Curso.Exercicio03
+﻿﻿﻿namespace B_classes_atributos_metodos.Exercicio03
 {
     public class Aluno
     {
@@ -7,14 +7,16 @@
         public double Nota2;
         public double Nota3;
 
+        public static double Media = 7.00;
+
         public double CalcularMediaFinal()
         {
-            return Nota1 + Nota2 + Nota3;
+            return (Nota1 + Nota2 + Nota3) / 3;
         }
         
         public double CalcularPontosFaltantes()
         {
-            return 60.00 - CalcularMediaFinal();
+            return Media - CalcularMediaFinal();
         }
     }
 }
