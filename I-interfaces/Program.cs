@@ -4,9 +4,26 @@ namespace I_interfaces
 {
     class Program
     {
+        // TODO - Traduzir aulas para o portugues
+        static void ExecutarAulas()
+        {
+            Console.WriteLine("\n----- Aula01 -----");
+            Aula01.Aula01.Executar();
+            
+            Console.WriteLine("\n----- Aula02 -----");
+            Aula02.Aula02.Executar();
+            
+            Console.WriteLine("\n----- Aula03 -----");
+            Aula03.Aula03.Executar();
+            
+            Console.WriteLine("\n----- Aula04 -----");
+            Aula04.Aula04.Executar();
+        }
+        
         static void Main(string[] args)
         {
-            Console.WriteLine("Nona Parte do Curso de C#!");
+            ExecutarAulas();
+            Console.WriteLine("\nNona Parte do Curso de C#!");
         }
     }
 }

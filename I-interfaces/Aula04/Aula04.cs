@@ -5,16 +5,16 @@ using I_interfaces.Aula04.Entities;
 
 namespace I_interfaces.Aula04
 {
-    public class Program
+    public class Aula04
     {
-        static void Teste()
+        public static void Executar()
         {
-            var userName = Environment.UserName;
-            var path = $@"C:\Users\{userName}\temp-teste\arquivo01.txt";
+            var usuario = Environment.UserName;
+            var diretorio = $@"C:\Users\{usuario}\Projects-Idea\Projects-Rider\Curso\I-interfaces\Aula04\arquivo.txt";
 
             try
             {
-                using (StreamReader reader = File.OpenText(path))
+                using (StreamReader reader = File.OpenText(diretorio))
                 {
                     var lista = new List<Funcionario>();
                     while (!reader.EndOfStream)
@@ -36,10 +36,5 @@ namespace I_interfaces.Aula04
                 Console.WriteLine($"Ocorreu um erro ao ler o arquivo: {e.Message}");
             }
         }
-        
-        /*static void Main(string[] args)
-        {
-            Teste();    
-        }*/
     }
 }
