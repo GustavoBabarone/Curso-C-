@@ -3,9 +3,9 @@ using System.Globalization;
 
 namespace B_classes_atributos_metodos.Exercicio02
 {
-    public class Program
+    public class Exercicio02
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             Funcionario f = new Funcionario();
             
@@ -25,10 +25,5 @@ namespace B_classes_atributos_metodos.Exercicio02
 
             Console.WriteLine($"Dados atualizados: {f.Nome}, $ {SalarioLiquido.ToString("F2", CultureInfo.InvariantCulture)}");
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

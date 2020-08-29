@@ -3,9 +3,9 @@ using System.Globalization;
 
 namespace B_classes_atributos_metodos.Exercicio03
 {
-    public class Program
+    public class Exercicio03
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             Console.WriteLine("Entre com os dados do aluno:");
 
@@ -27,10 +27,5 @@ namespace B_classes_atributos_metodos.Exercicio03
                 Console.WriteLine($"Faltaram {a.CalcularPontosFaltantes().ToString("F2", CultureInfo.InvariantCulture)} pontos");
             }
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

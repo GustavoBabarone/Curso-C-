@@ -2,7 +2,7 @@
 
 namespace B_classes_atributos_metodos.Aula02.versao3
 {
-    public class CalculadoraVersao3
+    public class Calculadora
     {
         public static double Pi = 3.14;
         

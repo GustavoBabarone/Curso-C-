@@ -3,9 +3,9 @@ using System.Globalization;
 
 namespace B_classes_atributos_metodos.Aula01
 {
-    public class Program
+    public class Aula01
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             Triangulo x = new Triangulo();
             Triangulo y = new Triangulo();
@@ -34,10 +34,5 @@ namespace B_classes_atributos_metodos.Aula01
                 Console.WriteLine("Maior área: Y");
             }
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

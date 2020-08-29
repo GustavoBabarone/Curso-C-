@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace B_classes_atributos_metodos.Aula02.versao1
 {
-    public class ProgramVersao1
+    public class Aula02Versao1
     {
         /* VERSÃO 1 -> Métodos na própria classe */
         static double Pi = 3.14;
@@ -18,7 +18,7 @@ namespace B_classes_atributos_metodos.Aula02.versao1
             return 4.0 / 3.0 * Pi * Math.Pow(raio, 3.0);
         }
 
-        static void ExecutarAula()
+        public static void Executar()
         {
             Console.Write("Entre com o valor do raio: ");
             double raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
@@ -30,10 +30,5 @@ namespace B_classes_atributos_metodos.Aula02.versao1
             Console.WriteLine("Volume: " + volume.ToString("F2", CultureInfo.InvariantCulture));
             Console.WriteLine("Valor de Pi: " + Pi.ToString("F2", CultureInfo.InvariantCulture));
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

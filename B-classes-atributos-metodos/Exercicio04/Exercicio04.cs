@@ -3,9 +3,9 @@ using System.Globalization;
 
 namespace B_classes_atributos_metodos.Exercicio04
 {
-    public class Program
+    public class Exercicio04
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             Console.Write("Qual é a cotação do dólar? ");
             double cotacao = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
@@ -16,10 +16,5 @@ namespace B_classes_atributos_metodos.Exercicio04
             string valor = ConversorDeMoeda.CalcularValorFinal(cotacao, quantidade).ToString("F2", CultureInfo.InvariantCulture);
             Console.WriteLine($"O valor a ser pago em reais será = {valor}");
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

@@ -3,9 +3,9 @@ using System.Globalization;
   
 namespace B_classes_atributos_metodos.Exercicio01
 {
-    public class Program
+    public class Exercicio01
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             Console.WriteLine("Entre os dados do produto:");
             
@@ -30,10 +30,5 @@ namespace B_classes_atributos_metodos.Exercicio01
 
             Console.WriteLine("Dados atualizados: " + p.ExibirMensagem());
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

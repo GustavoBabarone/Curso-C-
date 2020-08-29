@@ -3,12 +3,12 @@ using System.Globalization;
 
 namespace B_classes_atributos_metodos.Aula02.versao2
 {
-    public class ProgramVersao2
+    public class Aula02Versao2
     {
         /* VERSÃO 2 ->  Métodos em uma classe separada */
-        static void ExecutarAula()
+        public static void Executar()
         {
-            CalculadoraVersao2 calc = new CalculadoraVersao2();
+            Calculadora calc = new Calculadora();
             
             Console.Write("Entre com o valor do raio: ");
             double raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
@@ -20,10 +20,5 @@ namespace B_classes_atributos_metodos.Aula02.versao2
             Console.WriteLine("Volume: " + volume.ToString("F2", CultureInfo.InvariantCulture));
             Console.WriteLine("Valor de Pi: " + calc.Pi.ToString("F2", CultureInfo.InvariantCulture));
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }
