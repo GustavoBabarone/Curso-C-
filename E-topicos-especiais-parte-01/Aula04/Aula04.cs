@@ -2,9 +2,9 @@
 
 namespace E_topicos_especiais_parte_01.Aula04
 {
-    public class Program
+    public class Aula04
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             string original = "abcde FGHIJ ABC abc DEFG     ";
             
@@ -37,10 +37,5 @@ namespace E_topicos_especiais_parte_01.Aula04
             Console.WriteLine($"IsNullOrEmpty: {b1}");
             Console.WriteLine($"IsNullOrWhiteSpace: {b2}");
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

@@ -2,9 +2,9 @@
 
 namespace E_topicos_especiais_parte_01.Aula02
 {
-    public class Program
+    public class Aula02
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             Console.Write("Informe um número: ");
             int x = int.Parse(Console.ReadLine());
@@ -39,10 +39,5 @@ namespace E_topicos_especiais_parte_01.Aula02
             }
             Console.WriteLine($"Dia da semana: {dia}");
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

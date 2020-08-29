@@ -2,9 +2,9 @@
 
 namespace E_topicos_especiais_parte_01.Aula07
 {
-    public class Program
+    public class Aula07
     {
-        static void ExecutarFormatacoes()
+        private static void ExecutarFormatacoes()
         {
             Console.WriteLine("\n--- Formatações ---");
             
@@ -26,7 +26,7 @@ namespace E_topicos_especiais_parte_01.Aula07
             Console.WriteLine("Year: " + d.Year);
         }
 
-        static void ExecutarConversao()
+        private static void ExecutarConversao()
         {
             Console.WriteLine("\n--- Conversões ---");
             
@@ -40,7 +40,7 @@ namespace E_topicos_especiais_parte_01.Aula07
             Console.WriteLine(d1.ToString("yyyy-MM-dd HH:mm:ss.fff"));
         } 
 
-        static void ExecutarOperacoes()
+        private static void ExecutarOperacoes()
         {
             Console.WriteLine("\n--- Operações ---");
             
@@ -56,11 +56,11 @@ namespace E_topicos_especiais_parte_01.Aula07
             Console.WriteLine("AddDays: " + d4);
         }
         
-        /*static void Main(string[] args)
+        public static void Executar()
         {
             ExecutarFormatacoes();
             ExecutarConversao();
             ExecutarOperacoes();
-        }*/
+        }
     }
 }

@@ -2,9 +2,9 @@
 
 namespace E_topicos_especiais_parte_01.Aula03
 {
-    public class Program
+    public class Aula03
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             /* CONDICIONAL TERNÁRIA */
             int valor = 10;
@@ -18,10 +18,5 @@ namespace E_topicos_especiais_parte_01.Aula03
             
             Console.WriteLine("Resposta: " + resposta);
         }
-
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

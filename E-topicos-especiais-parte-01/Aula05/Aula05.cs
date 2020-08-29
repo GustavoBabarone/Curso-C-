@@ -3,9 +3,9 @@ using System.Globalization;
 
 namespace E_topicos_especiais_parte_01.Aula05
 {
-    public class Program
+    public class Aula05
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             /* DateTime -> tipo valor (struct) */
             DateTime d1 = DateTime.Now;
@@ -37,10 +37,5 @@ namespace E_topicos_especiais_parte_01.Aula05
             DateTime d9 = DateTime.ParseExact("06/05/2020 13:15:45", "dd/MM/yyyy HH:mm:ss", CultureInfo.InvariantCulture);
             Console.WriteLine("DateTime 9: " + d9);
         }
-        
-        /*static void Main(string[] args)
-        {
-           ExecutarAula();
-        }*/
     }
 }

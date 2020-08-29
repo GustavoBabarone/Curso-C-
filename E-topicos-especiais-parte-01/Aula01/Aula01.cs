@@ -2,9 +2,9 @@
 
 namespace E_topicos_especiais_parte_01.Aula01
 {
-    public class Program
+    public class Aula01
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             /* INFERENCIA DE TIPOS DE VARIAVEL */
             var x = 10;
@@ -15,10 +15,5 @@ namespace E_topicos_especiais_parte_01.Aula01
             Console.WriteLine(y);
             Console.WriteLine(z);    
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }
