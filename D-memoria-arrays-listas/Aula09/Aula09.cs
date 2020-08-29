@@ -2,9 +2,9 @@
 
 namespace D_memoria_arrays_listas.Aula09
 {
-    public class Program
+    public class Aula09
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             double[,] matriz = new double[2, 3];
             
@@ -16,10 +16,5 @@ namespace D_memoria_arrays_listas.Aula09
             
             Console.WriteLine("GetLength(1): " + matriz.GetLength(1));
         }
-
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

@@ -2,9 +2,9 @@
 
 namespace D_memoria_arrays_listas.Exercicio03
 {
-    public class Program
+    public class Exercicio03
     {
-        static void ExecutarExercicio()
+        public static void Executar()
         {
             Console.Write("Insira a ordem (n) da matriz: ");
             int n = int.Parse(Console.ReadLine());
@@ -34,10 +34,5 @@ namespace D_memoria_arrays_listas.Exercicio03
             
             Console.WriteLine("\n\nNúmeros negativos: " + numerosNegativos);
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarExercicio();
-        }*/
     }
 }

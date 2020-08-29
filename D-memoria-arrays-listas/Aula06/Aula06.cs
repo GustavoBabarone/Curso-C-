@@ -2,24 +2,24 @@
 
 namespace D_memoria_arrays_listas.Aula06
 {
-    public class Program
+    public class Aula06
     {
-        public static void Triplicar(int x)
+        private static void Triplicar(int x)
         {
             x *= 3;
         }
         
-        public static void TriplicarUsandoRef(ref int x)
+        private static void TriplicarUsandoRef(ref int x)
         {
             x *= 3;
         }
         
-        public static void TriplicarUsandoOut(int origem,  out int resultado)
+        private static void TriplicarUsandoOut(int origem,  out int resultado)
         {
             resultado = origem * 3;
         }
 
-        static void ExecutarAula()
+        public static void Executar()
         {
             /* parametros -> ref precisa ser iniciada */
             int a = 10;
@@ -40,10 +40,5 @@ namespace D_memoria_arrays_listas.Aula06
             
             Console.WriteLine("Valor out triplo = " + triplo);
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

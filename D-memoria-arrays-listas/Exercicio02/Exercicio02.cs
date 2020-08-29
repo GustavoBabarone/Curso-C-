@@ -4,16 +4,15 @@ using System.Globalization;
 
 namespace D_memoria_arrays_listas.Exercicio02
 {
-    public class Program
+    public class Exercicio02
     {
-        static void ExecutarExercicio()
+        public static void Executar()
         {
             List<Funcionario> funcionarios = new List<Funcionario>();
             
             Console.Write("Quantos funcionários serão registrados? ");
             int quantia = int.Parse(Console.ReadLine());
             
-
             for (int i = 0; i < quantia; i++)
             {
                 Console.WriteLine();
@@ -54,10 +53,5 @@ namespace D_memoria_arrays_listas.Exercicio02
                 Console.WriteLine(obj.ToString());
             }
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarExercicio();
-        }*/
     }
 }

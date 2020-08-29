@@ -2,9 +2,9 @@
 
 namespace D_memoria_arrays_listas.Exercicio01
 {
-    public class Program
+    public class Exercicio01
     {
-        static void ExecutarExercicio()
+        public static void Executar()
         {
             Estudante[] estudantes = new Estudante[10];
 
@@ -34,10 +34,5 @@ namespace D_memoria_arrays_listas.Exercicio01
                 }
             }
         }
-
-        /*static void Main(string[] args)
-        {
-            ExecutarExercicio();
-        }*/
     }
 }

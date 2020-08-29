@@ -2,9 +2,9 @@
 
 namespace D_memoria_arrays_listas.Aula02
 {
-    public class Program
+    public class Aula02
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             /* dados tipo VALOR (structs) podem receber NULL se usado '?' */
             double? x = null;
@@ -24,10 +24,5 @@ namespace D_memoria_arrays_listas.Aula02
             Console.WriteLine("Valor de a = " + a);
             Console.WriteLine("Valor de b = " + b);
         }
-
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

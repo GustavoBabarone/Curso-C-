@@ -1,8 +1,8 @@
 ﻿namespace D_memoria_arrays_listas.Aula01
 {
-    public class Program
+    public class Aula01
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             Pessoa p1, p2;
             p1 = new Pessoa("Gustavo", 17);
@@ -16,10 +16,5 @@
             
             /* n2 copia valor de n1 - n2 NÃO aponta para o mesmo lugar de n1 => stack */
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

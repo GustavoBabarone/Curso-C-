@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace D_memoria_arrays_listas.Aula10
 {
-    public class Program
+    public class Aula10
     {
-        static void ListarConjunto<T>(HashSet<T> lista)
+        private static void ListarConjunto<T>(HashSet<T> lista)
         {
             foreach (var elemento in lista)
             {
@@ -13,7 +13,7 @@ namespace D_memoria_arrays_listas.Aula10
             }
         }
         
-        static void ExecutarAula()
+        public static void Executar()
         {
             /* CONJUNTOS */
             HashSet<int> a = new HashSet<int>();
@@ -62,10 +62,5 @@ namespace D_memoria_arrays_listas.Aula10
 
             ListarConjunto(a);
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

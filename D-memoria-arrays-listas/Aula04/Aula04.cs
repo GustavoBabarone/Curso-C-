@@ -3,9 +3,9 @@ using System.Globalization;
 
 namespace D_memoria_arrays_listas.Aula04
 {
-    public class Program
+    public class Aula04
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             Console.Write("Quantos produtos? ");
             int n = int.Parse(Console.ReadLine());
@@ -34,10 +34,5 @@ namespace D_memoria_arrays_listas.Aula04
             Console.WriteLine("Soma total: " + soma);
             Console.WriteLine("Media final: " + media);    
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

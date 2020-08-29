@@ -3,9 +3,9 @@ using System.Globalization;
 
 namespace D_memoria_arrays_listas.Aula03
 {
-    public class Program
+    public class Aula03
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             Console.Write("Quantas posições o vetor terá? ");
             int n = int.Parse(Console.ReadLine());
@@ -26,10 +26,5 @@ namespace D_memoria_arrays_listas.Aula03
             Console.WriteLine("Soma total: " + soma);
             Console.WriteLine("Media final: " + media);
         }
-
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }
