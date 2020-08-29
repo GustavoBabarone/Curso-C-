@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I-interfaces", "I-interface
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J-Generics-set-dictionary", "J-Generics-set-dictionary\J-Generics-set-dictionary.csproj", "{33AA69A7-2A77-440F-8756-0CA3AA1EC88E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K-Lambda-delegates-linq", "K-Lambda-delegates-linq\K-Lambda-delegates-linq.csproj", "{684CCD01-2D84-47C6-BB3F-114765C6334D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{33AA69A7-2A77-440F-8756-0CA3AA1EC88E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33AA69A7-2A77-440F-8756-0CA3AA1EC88E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33AA69A7-2A77-440F-8756-0CA3AA1EC88E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{684CCD01-2D84-47C6-BB3F-114765C6334D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684CCD01-2D84-47C6-BB3F-114765C6334D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684CCD01-2D84-47C6-BB3F-114765C6334D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684CCD01-2D84-47C6-BB3F-114765C6334D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
