@@ -4,9 +4,9 @@ using System.Globalization;
 
 namespace J_Generics_set_dictionary.Aula02
 {
-    public class Program
+    public class Aula02
     {
-        static void Teste()
+        public static void Executar()
         {
             var lista = new List<Produto>();
 
@@ -21,12 +21,7 @@ namespace J_Generics_set_dictionary.Aula02
             }
             
             CalculadoraService calc = new CalculadoraService();;
-            Console.WriteLine($"Maior produto = {calc.CalcularMaiorValor(lista)}");
+            Console.WriteLine($"Maior produto: {calc.CalcularMaiorValor(lista)}");
         }
-        
-        /*static void Main(string[] args)
-        {
-            Teste();
-        }*/
     }
 }

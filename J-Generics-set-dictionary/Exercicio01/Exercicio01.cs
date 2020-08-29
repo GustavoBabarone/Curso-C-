@@ -4,25 +4,25 @@ using System.IO;
 
 namespace J_Generics_set_dictionary.Exercicio01
 {
-    public class Program
+    public class Exercicio01
     {
-        static void Teste()
+        public static void Executar()
         {
-            string userName = Environment.UserName;
-            string path = @"C:\Users\" + userName + @"\Projects-Idea\Projects-Rider\Curso\J-Generics-set-dictionary\Exercicio01\arquivo.txt";
+            string usuario = Environment.UserName;
+            string diretorio = @"C:\Users\" + usuario + @"\Projects-Idea\Projects-Rider\Curso\J-Generics-set-dictionary\Exercicio01\arquivo.txt";
 
-            if (!File.Exists(path))
+            if (!File.Exists(diretorio))
             {
                 throw new FileNotFoundException("Arquivo não encontrado!");
             }
             
             Dictionary<string, int> votacao = new Dictionary<string, int>();
             
-            StreamReader sr = File.OpenText(path);
+            StreamReader sr = File.OpenText(diretorio);
             while (!sr.EndOfStream)
             {
                 var linha = sr.ReadLine();
-                if (!String.IsNullOrEmpty(linha))
+                if (!string.IsNullOrEmpty(linha))
                 {
                     var vetor = linha.Split(",");
 
@@ -40,10 +40,5 @@ namespace J_Generics_set_dictionary.Exercicio01
                 Console.WriteLine($"{voto.Key.PadRight(12)} teve {voto.Value} votos");
             }
         }
-        
-        /*static void Main(string[] args)
-        {
-            Teste();    
-        }*/
     }
 }

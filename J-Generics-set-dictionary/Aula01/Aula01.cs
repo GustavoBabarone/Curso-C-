@@ -2,13 +2,13 @@
 
 namespace J_Generics_set_dictionary.Aula01
 {
-    public class Program
+    public class Aula01
     {
-        static void Teste()
+        public static void Executar()
         {
             PrintService<string> printService = new PrintService<string>();
             
-            Console.Write("How many values? ");
+            Console.Write("Quantos valores? ");
             int n = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < n; i++)
@@ -18,12 +18,7 @@ namespace J_Generics_set_dictionary.Aula01
             }
 
             printService.Print();
-            Console.WriteLine("First: " + printService.First());
+            Console.WriteLine("Primeiro: " + printService.First());
         }
-        
-        /*static void Main(string[] args)
-        {
-            Teste();
-        }*/
     }
 }

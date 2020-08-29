@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace J_Generics_set_dictionary.Aula06
 {
-    public class Program
+    public class Aula06
     {
-        static void Teste()
+        public static void Executar()
         {
             HashSet<Produto> produtos = new HashSet<Produto>();
             produtos.Add(new Produto("TV", 600.00));
@@ -24,10 +24,5 @@ namespace J_Generics_set_dictionary.Aula06
             Ponto ponto = new Ponto(5, 10);
             Console.WriteLine(pontos.Contains(ponto));
         }
-        
-        /*static void Main(string[] args)
-        {
-            Teste();    
-        }*/
     }
 }

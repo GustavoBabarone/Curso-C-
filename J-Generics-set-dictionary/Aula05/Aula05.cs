@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace J_Generics_set_dictionary.Aula05
 {
-    public class Program
+    public class Aula05
     {
-        static void Teste()
+        public static void Executar()
         {
             SortedSet<int> colecao1 = new SortedSet<int> { 10, 0, 2, 4, 5, 6, 8 };
             SortedSet<int> colacao2 = new SortedSet<int> { 5, 6, 7, 8, 9, 10 };
@@ -37,10 +37,5 @@ namespace J_Generics_set_dictionary.Aula05
                 Console.Write($"{obj} - ");
             }
         }
-        
-        /*static void Main(string[] args)
-        {
-            Teste();
-        }*/
     }
 }

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace J_Generics_set_dictionary.Aula07
 {
-    public class Program
+    public class Aula07
     {
-        static void Teste()
+        public static void Executar()
         {
             Dictionary<string, string> cookies = new Dictionary<string, string>();
             cookies["nome"] = "Gustavo";
@@ -39,10 +39,5 @@ namespace J_Generics_set_dictionary.Aula07
                 Console.WriteLine($"{par.Key}: {par.Value}");
             }
         }
-        
-        /*static void Main(string[] args)
-        {
-            Teste();    
-        }*/
     }
 }

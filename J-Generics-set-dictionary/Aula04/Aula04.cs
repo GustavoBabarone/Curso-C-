@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace J_Generics_set_dictionary.Aula04
 {
-    public class Program
+    public class Aula04
     {
-        static void Teste()
+        public static void Executar()
         {
               var hash = new HashSet<string>();
               hash.Add("string1");
@@ -33,10 +33,5 @@ namespace J_Generics_set_dictionary.Aula04
 
               Console.WriteLine($"\nQuantidade de itens: {hash.Count}");
         }
-        
-        /*static void Main(string[] args)
-        {
-            Teste();
-        }*/
     }
 }
