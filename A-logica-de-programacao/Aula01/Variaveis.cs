@@ -4,7 +4,7 @@ namespace A_logica_de_programacao.Aula01
 {
     public class Variaveis
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             sbyte var1 = 127;
             short var2 = 32767;
@@ -26,10 +26,5 @@ namespace A_logica_de_programacao.Aula01
             Console.WriteLine(var8);
             Console.WriteLine(var9);
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

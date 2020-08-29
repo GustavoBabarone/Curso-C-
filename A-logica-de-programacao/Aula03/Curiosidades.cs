@@ -4,7 +4,7 @@ namespace A_logica_de_programacao.Aula03
 {
     public class Curiosidades
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             int n1 = int.MaxValue;
             sbyte n2 = sbyte.MinValue;
@@ -14,10 +14,5 @@ namespace A_logica_de_programacao.Aula03
             Console.WriteLine(n2);
             Console.WriteLine(n3);
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

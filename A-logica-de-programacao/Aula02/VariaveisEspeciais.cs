@@ -4,7 +4,7 @@ namespace A_logica_de_programacao.Aula02
 {
     public class VariaveisEspeciais
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             char letra = '\u0041';
             string nome = "Gustavo";
@@ -16,10 +16,5 @@ namespace A_logica_de_programacao.Aula02
             Console.WriteLine(obj1);
             Console.WriteLine(obj2);    
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

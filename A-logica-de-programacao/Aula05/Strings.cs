@@ -4,7 +4,7 @@ namespace A_logica_de_programacao.Aula05
 {
     public class Strings
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             string nome = "Gustavo";
             int idade = 17;
@@ -19,10 +19,5 @@ namespace A_logica_de_programacao.Aula05
             // Concatenação
             Console.WriteLine(nome + " tem " + idade + " anos e tem saldo igual a " + saldo.ToString("F2") + " reais");    
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

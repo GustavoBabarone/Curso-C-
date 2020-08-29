@@ -4,7 +4,7 @@ namespace A_logica_de_programacao.Aula08
 {
     public class Incrementar
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             int contador = 1;
             contador++;
@@ -16,10 +16,5 @@ namespace A_logica_de_programacao.Aula08
             int variavel2 = ++contador;
             Console.WriteLine(variavel2);
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }
