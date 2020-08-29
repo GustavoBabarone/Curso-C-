@@ -1,9 +1,9 @@
 ﻿namespace F_enumeracoes_composicoes.Exercicio01.Entities.Enums
 {
-    public enum WorkerLevel : int
+    public enum ExperienciaFuncionario : int
     {
         Junior = 0,
-        MidLevel = 1,
+        Pleno = 1,
         Senior = 2
     }
 }

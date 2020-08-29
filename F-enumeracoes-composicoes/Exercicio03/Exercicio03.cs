@@ -5,31 +5,27 @@ using F_enumeracoes_composicoes.Exercicio03.Entities.Enums;
 
 namespace F_enumeracoes_composicoes.Exercicio03
 {
-    public class Program
+    public class Exercicio03
     {
-        /*static void Main(string[] args)
+        // TODO - Traduzir para portugues as classes, atributos, metodos e outras variaveis
+        public static void Executar()
         {
-            Teste();
-        }*/
-
-        static void Teste()
-        {
-            Console.WriteLine("Enter cliente data:");
+            Console.WriteLine("Insira os dados do cliente:");
             
-            Console.Write("Name: ");
+            Console.Write("Nome: ");
             string name = Console.ReadLine();
             
             Console.Write("Email: ");
             string email = Console.ReadLine();
             
-            Console.Write("Birth date (DD/MM/YYYY): ");
+            Console.Write("Nascimento (DD/MM/YYYY): ");
             DateTime birthDate = DateTime.Parse(Console.ReadLine());
 
-            Console.WriteLine("\nEnter order data: ");
+            Console.WriteLine("\nInsita os dados do pedido: ");
             Console.Write("Status (PendingPayment/Processing/Shipped/Delivered): ");
             OrderStatus status = Enum.Parse<OrderStatus>(Console.ReadLine());
             
-            Console.Write("How many items to this order? ");
+            Console.Write("Quantos itens para esse pedido? ");
             int n = int.Parse(Console.ReadLine());
             
             Client client = new Client(name, email, birthDate);
@@ -37,14 +33,14 @@ namespace F_enumeracoes_composicoes.Exercicio03
             
             for (int i = 0; i < n; i++)
             {
-                Console.WriteLine($"\nEnter #{i+1} item data:");
-                Console.Write("Product name: ");
+                Console.WriteLine($"\nInsira os dados do #{i+1} item:");
+                Console.Write("Nome produto: ");
                 string productName = Console.ReadLine();
                 
-                Console.Write("Product Price: ");
+                Console.Write("Preço produto: ");
                 double productPrice = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                 
-                Console.Write("Quantity: ");
+                Console.Write("Quantidade: ");
                 int productQuantity = int.Parse(Console.ReadLine());
                 
                 Product product = new Product(productName, productPrice);
