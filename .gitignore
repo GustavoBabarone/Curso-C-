@@ -404,6 +404,9 @@ out/
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
+# Rider
+.idea/
+
 # JIRA plugin
 atlassian-ide-plugin.xml
 
