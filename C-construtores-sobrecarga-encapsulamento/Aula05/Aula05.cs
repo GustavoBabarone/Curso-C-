@@ -2,9 +2,9 @@
 
 namespace C_construtores_sobrecarga_encapsulamento.Aula05
 {
-    public class Program
+    public class Aula05
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             Produto p = new Produto("TV", 900.00, 10);
 
@@ -16,10 +16,5 @@ namespace C_construtores_sobrecarga_encapsulamento.Aula05
             Console.WriteLine(p.GetPreco());
             Console.WriteLine(p.GetQuantidade());
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

@@ -3,9 +3,9 @@ using System.Globalization;
 
 namespace C_construtores_sobrecarga_encapsulamento.Aula04
 {
-    public class Program
+    public class Aula04
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             Console.WriteLine("Entre os dados do produto:");
             string nome = Console.ReadLine();
@@ -38,10 +38,5 @@ namespace C_construtores_sobrecarga_encapsulamento.Aula04
 
             Console.WriteLine("Dados atualizados: " + p.ExibirMensagem());
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

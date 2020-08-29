@@ -1,20 +1,18 @@
 ﻿using System;
 using System.Globalization;
 
-namespace C_construtores_sobrecarga_encapsulamento.Aula02
+namespace C_construtores_sobrecarga_encapsulamento.Aula01
 {
-    public class Program
+    public class Aula01
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             Console.WriteLine("Entre os dados do produto:");
             string nome = Console.ReadLine();
             double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            /*int quantidade = int.Parse(Console.ReadLine());*/
+            int quantidade = int.Parse(Console.ReadLine());
             
-            Produto p = new Produto(nome, preco);
-            
-            Produto p2 = new Produto();
+            Produto p = new Produto(nome, preco, quantidade);
 
             Console.WriteLine("Dados do produto: " + p.ExibirMensagem());
             
@@ -32,10 +30,5 @@ namespace C_construtores_sobrecarga_encapsulamento.Aula02
 
             Console.WriteLine("Dados atualizados: " + p.ExibirMensagem());
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }

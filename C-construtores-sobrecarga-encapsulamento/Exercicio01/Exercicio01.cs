@@ -3,9 +3,9 @@ using System.Globalization;
 
 namespace C_construtores_sobrecarga_encapsulamento.Exercicio01
 {
-    public class Program
+    public class Exercicio01
     {
-        static void ExecutarExercicio()
+        public static void Executar()
         {
             Conta c;
             
@@ -44,10 +44,5 @@ namespace C_construtores_sobrecarga_encapsulamento.Exercicio01
             Console.WriteLine();
             Console.WriteLine("Dados da conta: \n" + c);
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarExercicio();
-        }*/
     }
 }

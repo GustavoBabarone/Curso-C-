@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace C_construtores_sobrecarga_encapsulamento.Aula06
+namespace C_construtores_sobrecarga_encapsulamento.Aula07
 {
-    public class Program
+    public class Aula07
     {
-        static void ExecutarAula()
+        public static void Executar()
         {
             Produto p = new Produto("TV", 900.00, 10);
 
@@ -16,10 +16,5 @@ namespace C_construtores_sobrecarga_encapsulamento.Aula06
             Console.WriteLine(p.Preco);
             Console.WriteLine(p.Quantidade);
         }
-        
-        /*static void Main(string[] args)
-        {
-            ExecutarAula();
-        }*/
     }
 }
