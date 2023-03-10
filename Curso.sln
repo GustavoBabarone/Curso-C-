@@ -1,26 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A-logica-de-programacao", "A-logica-de-programacao\A-logica-de-programacao.csproj", "{8ADCC441-887A-42B0-B3C0-8D49DEA8D2DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.Logica.Programacao", "A.Logica.Programacao\A.Logica.Programacao.csproj", "{8ADCC441-887A-42B0-B3C0-8D49DEA8D2DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B-classes-atributos-metodos", "B-classes-atributos-metodos\B-classes-atributos-metodos.csproj", "{E453E409-EE47-45F0-8469-C4FCB82DACFD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B.Classes.Atributos.Metodos", "B.Classes.Atributos.Metodos\B.Classes.Atributos.Metodos.csproj", "{E453E409-EE47-45F0-8469-C4FCB82DACFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-construtores-sobrecarga-encapsulamento", "C-construtores-sobrecarga-encapsulamento\C-construtores-sobrecarga-encapsulamento.csproj", "{F332FB04-E8FF-47FF-9511-E53E9D3DFC21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C.Construtores.Sobrecarga.Encapsulamento", "C.Construtores.Sobrecarga.Encapsulamento\C.Construtores.Sobrecarga.Encapsulamento.csproj", "{F332FB04-E8FF-47FF-9511-E53E9D3DFC21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-memoria-arrays-listas", "D-memoria-arrays-listas\D-memoria-arrays-listas.csproj", "{806E15BE-55BC-4910-ACA4-B5C400B8DC8E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D.Memoria.Arrays.Listas", "D.Memoria.Arrays.Listas\D.Memoria.Arrays.Listas.csproj", "{806E15BE-55BC-4910-ACA4-B5C400B8DC8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-topicos-especiais-parte-01", "E-topicos-especiais-parte-01\E-topicos-especiais-parte-01.csproj", "{230C79A5-0F39-478B-B081-DAE598D32DCB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E.Topicos.Especiais.Parte01", "E.Topicos.Especiais.Parte01\E.Topicos.Especiais.Parte01.csproj", "{230C79A5-0F39-478B-B081-DAE598D32DCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F-enumeracoes-composicoes", "F-enumeracoes-composicoes\F-enumeracoes-composicoes.csproj", "{E8D559D3-9246-48AF-88DC-9AB854346116}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F.Enumeracoes.Composicoes", "F.Enumeracoes.Composicoes\F.Enumeracoes.Composicoes.csproj", "{E8D559D3-9246-48AF-88DC-9AB854346116}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G-heranca-polimorfismo", "G-heranca-polimorfismo\G-heranca-polimorfismo.csproj", "{A2B0BBD9-DF8C-4BD2-ACA2-290536421C06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G.Heranca.Polimorfismo", "G.Heranca.Polimorfismo\G.Heranca.Polimorfismo.csproj", "{A2B0BBD9-DF8C-4BD2-ACA2-290536421C06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H-arquivos", "H-arquivos\H-arquivos.csproj", "{0A4704E9-183E-4F90-9612-28EA907B706D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H.Arquivos", "H.Arquivos\H.Arquivos.csproj", "{0A4704E9-183E-4F90-9612-28EA907B706D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I-interfaces", "I-interfaces\I-interfaces.csproj", "{11F1E96A-3AF6-452D-9D07-5D602BF5E328}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I.Interfaces", "I.Interfaces\I.Interfaces.csproj", "{11F1E96A-3AF6-452D-9D07-5D602BF5E328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J-Generics-set-dictionary", "J-Generics-set-dictionary\J-Generics-set-dictionary.csproj", "{33AA69A7-2A77-440F-8756-0CA3AA1EC88E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J.Generics.Set.Dictionary", "J.Generics.Set.Dictionary\J.Generics.Set.Dictionary.csproj", "{33AA69A7-2A77-440F-8756-0CA3AA1EC88E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K-Lambda-delegates-linq", "K-Lambda-delegates-linq\K-Lambda-delegates-linq.csproj", "{684CCD01-2D84-47C6-BB3F-114765C6334D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K.Lambda.Delegates.Linq", "K.Lambda.Delegates.Linq\K.Lambda.Delegates.Linq.csproj", "{684CCD01-2D84-47C6-BB3F-114765C6334D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
