@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J.Generics.Set.Dictionary",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K.Lambda.Delegates.Linq", "K.Lambda.Delegates.Linq\K.Lambda.Delegates.Linq.csproj", "{684CCD01-2D84-47C6-BB3F-114765C6334D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto.Xadrez", "Projeto.Xadrez\Projeto.Xadrez.csproj", "{5953C872-4DAC-4513-825B-4D43F99D62FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,9 @@ Global
 		{684CCD01-2D84-47C6-BB3F-114765C6334D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{684CCD01-2D84-47C6-BB3F-114765C6334D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{684CCD01-2D84-47C6-BB3F-114765C6334D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5953C872-4DAC-4513-825B-4D43F99D62FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5953C872-4DAC-4513-825B-4D43F99D62FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5953C872-4DAC-4513-825B-4D43F99D62FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5953C872-4DAC-4513-825B-4D43F99D62FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
